@@ -1,11 +1,11 @@
-[![Node.js CI](https://github.com/Meir017/node-tgz-downloader/actions/workflows/test.yml/badge.svg)](https://github.com/Meir017/node-tgz-downloader/actions/workflows/test.yml)
+[![Node.js CI](https://github.com/Drioana/node-tgz-extractor/actions/workflows/test.yml/badge.svg)](https://github.com/Meir017/node-tgz-downloader/actions/workflows/test.yml)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
 # node-tgz-extractor
 Based on node-tgz-downloader
 
-Extracts all of the tarballs in local npm-cache based on  `package-lock.json` file
+Extracts all the tarballs in local npm-cache based on  `package-lock.json` file
 
 ## without install
 
@@ -18,7 +18,7 @@ npx @drianoa/node-tgz-extractor path/to/package-lock.json
 ### From Code:
 
 ```js
-const downloader = require('@drianoa/node-tgz-downloader');
+const downloader = require('@drianoa/node-tgz-extractor');
 
 downloader.extractFromPackageLock('path/to/package-lock');
 ```
@@ -34,8 +34,7 @@ extract-tgz package-lock path/to/package-lock.json
 ```
 
 
-
-[npm-image]: https://img.shields.io/npm/v/node-tgz-downloader.svg
-[npm-url]: https://npmjs.org/package/node-tgz-downloader
-[downloads-image]: https://img.shields.io/npm/dm/node-tgz-downloader.svg
-[downloads-url]: https://npmjs.org/package/node-tgz-downloader
+[npm-image]: https://img.shields.io/npm/v/node-tgz-extractor.svg
+[npm-url]: https://npmjs.org/package/node-tgz-extractor
+[downloads-image]: https://img.shields.io/npm/dm/node-tgz-extractor.svg
+[downloads-url]: https://npmjs.org/package/node-tgz-extractor

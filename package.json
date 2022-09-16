@@ -2,7 +2,7 @@
   "name": "node-tgz-extractor",
   "description": "Extracts all of the node_modules from npm cache based on a package-lock.json file",
   "authors": "Drianoa",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "scripts": {
     "test": "jasmine test/**/*spec.js --reporter=jasmine-console-reporter"
   },
@@ -36,7 +36,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Meir017/node-tgz-downloader.git"
+    "url": "https://github.com/Driaona/node-tgz-extractor.git"
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.9",
