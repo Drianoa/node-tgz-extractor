@@ -18,6 +18,13 @@ const commands = require('../lib/commands');
 program.version(packageJson.version);
 
 const cpuCount = require('os').cpus().length;
+program
+    .command('extract-package-lock <uri>')
+    .description('download tarballs based on a package-lock.json')
+    .option('--directory [directory]')
+    .option('--registry [registry]')
+    .option('-c, --concurrency <concurrency>', 'number of concurrent download', commands.parseConcurrency, cpuCount)
+    .action((uri, command) => commands.packageLockCommandExtract(uri, command));
 
 program
     .command('package-lock <uri>')
