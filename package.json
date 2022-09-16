@@ -27,7 +27,7 @@
   },
   "main": "lib/extractor.js",
   "bin": {
-    "download-tgz": "bin/extract-tgz"
+    "extract-tgz": "bin/extract-tgz"
   },
   "files": [
     "lib",
