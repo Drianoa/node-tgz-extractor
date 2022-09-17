@@ -36,7 +36,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Driaona/node-tgz-extractor.git"
+    "url": "https://github.com/Drianoa/node-tgz-extractor.git"
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.9",
