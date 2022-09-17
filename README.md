@@ -1,4 +1,4 @@
-[![Node.js CI](https://github.com/Drioana/node-tgz-extractor/actions/workflows/test.yml/badge.svg)](https://github.com/Meir017/node-tgz-downloader/actions/workflows/test.yml)
+[![Node.js CI](https://github.com/Drianoa/node-tgz-extractor/actions/workflows/test.yml/badge.svg)](https://github.com/Drianoa/node-tgz-extractor/actions/workflows/test.yml)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
@@ -10,7 +10,7 @@ Extracts all the tarballs in local npm-cache based on  `package-lock.json` file
 ## without install
 
 ```bash
-npx @drianoa/node-tgz-extractor path/to/package-lock.json
+npx node-tgz-extractor package-lock path/to/package-lock.json
 ```
 
 ## usage
@@ -18,7 +18,7 @@ npx @drianoa/node-tgz-extractor path/to/package-lock.json
 ### From Code:
 
 ```js
-const downloader = require('@drianoa/node-tgz-extractor');
+const downloader = require('node-tgz-extractor');
 
 downloader.extractFromPackageLock('path/to/package-lock');
 ```
