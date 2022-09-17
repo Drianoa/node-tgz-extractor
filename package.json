@@ -19,11 +19,8 @@
     "commander": "^2.16.0",
     "https-proxy-agent": "^5.0.1",
     "mkdirp": "^1.0.4",
-    "p-limit": "^4.0.0",
     "request": "^2.87.0",
-    "request-promise": "^4.2.2",
-    "semver": "^5.5.0",
-    "tar": "^4.4.6"
+    "request-promise": "^4.2.2"
   },
   "main": "lib/extractor.js",
   "bin": {
